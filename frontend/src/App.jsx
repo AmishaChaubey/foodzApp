@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./Components/Hero";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -8,6 +9,8 @@ const App = () => {
         Navbar
       </h1>
       <Hero />
+      <Footer/>
+
     </div>
   );
 };
